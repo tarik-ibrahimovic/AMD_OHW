@@ -36,7 +36,7 @@ Since Linux cannot meet hard real-time (RT) constraints, the R5 cores will run F
 
 ### Planned Peripherals
 
-* **Camera**: 2 or 4-lane MIPI CSI input for pose estimation.
+* **Camera**: 2 or 4-lane MIPI CSI input for pose estimation. (RPi connector type, or IAS)
 * **Flight Controller**: UART-based communication with the flight controller.
 
 ---
