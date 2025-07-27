@@ -44,10 +44,11 @@ Since Linux cannot meet hard real-time (RT) constraints, the R5 cores will run F
 ## Development Roadmap
 
 Tasks may be completed in parallel rather than sequentially.
+**Current state: Ubuntu 20.04 and FreeRTOS booted individually with custom HW design in Vivado. Next step: OpenAMP**
 
 * [ ] MPC design and simulation on PC
 * [ ] Quadrotor localization (OpenCV + IMU) on PC
-* [ ] FreeRTOS bring-up on R5 cores
+* [x] FreeRTOS bring-up on R5 cores
 * [ ] PetaLinux/Yocto bring-up on ARM cores
 * [ ] OpenAMP communication setup between A53 and R5 cores
 * [ ] Porting MPC to FreeRTOS
